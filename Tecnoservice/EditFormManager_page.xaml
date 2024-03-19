@@ -1,0 +1,31 @@
+﻿<Page x:Class="Tecnoservice.EditFormManager_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tecnoservice"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="EditFormManager_page"
+      Background="#f3f5f9">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="27*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Редактирование заявки" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="302,17,0,0" FontSize="40" Foreground="#4898d1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="324,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28"><Run Language="ru-ru" Text="Изменить тип неисправности"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="359,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28"><Run Language="ru-ru" Text="Изменить статус заявки"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="317,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28" Grid.Row="1"><Run Language="ru-ru" Text="Изменить описание проблемы"/></TextBlock>
+        <ComboBox x:Name="EditComboType" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="337,211,0,0" VerticalAlignment="Top" Width="345" Height="56" FontSize="28"/>
+        <ComboBox x:Name="EditComboStatus" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="337,302,0,0" VerticalAlignment="Top" Width="345" Height="56" FontSize="28"/>
+        <Button Click="backButton_Click" Content="Назад" Width="100" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="24,19,0,0" FontSize="28" Background="#4898d1" Foreground="#ffffff" BorderThickness="0"/>
+        <Button Click="saveButton_Click" Content="Сохранить" Width="296" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="368,185,0,0" FontSize="28" Background="#4898d1" Foreground="#ffffff" BorderThickness="0" Grid.Row="1"/>
+        <TextBox x:Name="EditDescription" Text="{Binding Description}" HorizontalAlignment="Left" Margin="248,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="520" Height="110" FontSize="28" BorderBrush="#bababa" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="361,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28"><Run Language="ru-ru" Text="Назначить исполнителя"/></TextBlock>
+        <ComboBox x:Name="EditComboExecutor" DisplayMemberPath="Login" HorizontalAlignment="Left" Margin="337,121,0,0" VerticalAlignment="Top" Width="345" Height="56" FontSize="28"/>
+        <DatePicker Name="DatePicker1" Text="Выберите дату" FontSize="20" SelectedDate="{Binding Date_end}" Margin="773,327,44,254" Grid.RowSpan="2" />
+        <TextBlock TextAlignment="Center" HorizontalAlignment="Left" Margin="763,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28"><Run Language="ru-ru" Text="Выберите дату окончания"/></TextBlock>
+    </Grid>
+</Page>

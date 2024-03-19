@@ -1,0 +1,44 @@
+﻿<Page x:Class="Tecnoservice.MainUser_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tecnoservice"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="MainUser_page"
+      Background="#f3f5f9" IsVisibleChanged="Page_IsVisibleChanged">
+
+    <Grid>
+        <TextBlock Text="Ваши заявки" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="302,71,0,0" FontSize="40" Foreground="#4898d1"/>
+        <StackPanel HorizontalAlignment="Right" Margin="0 16 16 0">
+            <Button Name="createFormButton"  Content="Добавить заявку" Width="230" HorizontalAlignment="Right" Margin="0 0 0 16" Height="50" FontSize="28" Background="#4898d1" Foreground="#ffffff" BorderThickness="0" Click="createFormButton_Click"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="searchTextBox" KeyDown="searchTextBox_KeyDown" TextWrapping="Wrap" Text="" Width="230" Height="50" FontSize="22" BorderBrush="#bababa"/>
+            </StackPanel>
+        </StackPanel>
+
+
+        <DataGrid x:Name="DGridMainUser_page" AutoGenerateColumns="False" IsReadOnly="True"  Background="#ffffff" Margin="18,153,22,47">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="FontSize" Value="22" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№ заявки" Binding ="{Binding ID}" Width="120" Foreground="#4898d1"/>
+                <DataGridTextColumn Header="Дата добавления" Binding ="{Binding Date_add, StringFormat=yyyy-MM-dd}" Width="200" Foreground="#4898d1"/>
+                <DataGridTextColumn Header="Оборудование" Binding ="{Binding Equipment.Name}" Width="170" Foreground="#4898d1"/>
+                <DataGridTextColumn Header="Тип неисправности" Binding ="{Binding Fault_type.Name}" Width="230" Foreground="#4898d1"/>
+                <DataGridTextColumn Header="Описание" Binding ="{Binding Description}" Width="180" Foreground="#4898d1"/>
+                <DataGridTextColumn Header="Статус заявки" Binding ="{Binding Status.Name}" Width="150" Foreground="#4898d1"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Image Margin="44,26,821,471" Source="/qr-code.png" Stretch="Fill"/>
+        <TextBlock VerticalAlignment="Top" Text="Оцените работу сервиса"  FontWeight="Bold" HorizontalAlignment="Left" Margin="15,4,0,0" FontSize="15" Foreground="#4898d1"/>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Margin="659,90,0,0" FontSize="25" Foreground="Black"><Run Language="ru-ru" Text="Поиск"/></TextBlock>
+    </Grid>
+
+</Page>

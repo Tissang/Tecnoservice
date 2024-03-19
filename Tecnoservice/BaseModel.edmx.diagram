@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c1c0190a06ce4398bad48bbdfbe743b2" Name="Diagram1">
+        <EntityTypeShape EntityType="TecnoserviceModel.Equipment" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoserviceModel.Fault_type" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoserviceModel.Request" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoserviceModel.Role" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoserviceModel.Status" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoserviceModel.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoserviceModel.User" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="TecnoserviceModel.FK_Request_Equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoserviceModel.FK_Request_Fault_type" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoserviceModel.FK_Request_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoserviceModel.FK_Request_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoserviceModel.FK_Request_User2" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoserviceModel.FK_User_Role1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
