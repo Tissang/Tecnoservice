@@ -1,0 +1,88 @@
+﻿<Page x:Class="BazanDemo.Table_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BazanDemo"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Table_page" Background="White">
+
+    <Grid
+    Margin="32">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+        Text="Cписок заявок"
+        TextAlignment="Center"
+        FontSize="32"
+        Margin="0 0 0 32"/>
+
+        <DataGrid
+        Grid.Row="1"
+        Name="dataGridRequest"
+        FontSize="24"
+        IsReadOnly="True"
+        AutoGenerateColumns="False"
+        SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                Header="Номер"
+                Width="auto"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding Id}" />
+                <DataGridTextColumn
+                Header="ФИО"
+                Width="*"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding Fio}" />
+                <DataGridTextColumn
+                Header="Телефон"
+                Width="*"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding Phone}" />
+                <DataGridTextColumn
+                Header="Почта"
+                Width="*"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding Email}" />
+                <DataGridTextColumn
+                Header="Оборудование"
+                Width="auto"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding Equipment.Name}" />
+                <DataGridTextColumn
+                Header="Статус"
+                Width="auto"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding Status.Name}" />
+                <DataGridTextColumn
+                Header="Дата начала"
+                Width="auto"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding StartDate}" />
+                <DataGridTextColumn
+                Header="Дата окончания"
+                Width="auto"
+                ElementStyle="{StaticResource TextBlockWrap}"
+                Binding="{Binding EndDate}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel
+        Grid.Row="2"
+        Orientation="Horizontal"
+        VerticalAlignment="Bottom"
+        HorizontalAlignment="Right"
+        Margin="0 32 0 0">
+            <Button
+            Click="GoBack"
+            Content="Назад"
+            FontSize="24"/>
+        </StackPanel>
+    </Grid>
+</Page>

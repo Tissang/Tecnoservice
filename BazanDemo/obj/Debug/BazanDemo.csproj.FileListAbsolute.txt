@@ -1,0 +1,77 @@
+C:\Users\student-523\Desktop\User55\BazanDemo\bin\Debug\BazanDemo.exe.config
+C:\Users\student-523\Desktop\User55\BazanDemo\bin\Debug\BazanDemo.exe
+C:\Users\student-523\Desktop\User55\BazanDemo\bin\Debug\BazanDemo.pdb
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.csproj.AssemblyReference.cache
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\MainWindow.g.cs
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\Splash_page.g.cs
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\App.g.cs
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo_MarkupCompile.cache
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo_MarkupCompile.lref
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\MainWindow.baml
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\Splash_page.baml
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.g.resources
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.Properties.Resources.resources
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.csproj.GenerateResource.cache
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.csproj.CoreCompileInputs.cache
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.exe
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\BazanDemo.pdb
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\Login_page.g.cs
+C:\Users\student-523\Desktop\User55\BazanDemo\obj\Debug\Login_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\bin\Debug\BazanDemo.exe.config
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\bin\Debug\BazanDemo.exe
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\bin\Debug\BazanDemo.pdb
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.csproj.AssemblyReference.cache
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Create_form_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Login_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\MainWindow.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Main_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Splash_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Vipoln_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Work_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\App.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo_MarkupCompile.cache
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo_MarkupCompile.lref
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Create_form_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Login_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\MainWindow.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Main_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Splash_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Vipoln_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Work_page.baml
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.g.resources
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.Properties.Resources.resources
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.csproj.GenerateResource.cache
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.csproj.CoreCompileInputs.cache
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.exe
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.pdb
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Table_page.g.cs
+C:\Users\student-523\Desktop\User55\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Table_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\bin\Debug\BazanDemo.exe.config
+D:\Базанова ПКС-42. Демо\BazanDemo\bin\Debug\BazanDemo.exe
+D:\Базанова ПКС-42. Демо\BazanDemo\bin\Debug\BazanDemo.pdb
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.csproj.AssemblyReference.cache
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Create_form_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Login_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\MainWindow.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Main_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Splash_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Table_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Vipoln_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Work_page.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\App.g.cs
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo_MarkupCompile.cache
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo_MarkupCompile.lref
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Create_form_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Login_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\MainWindow.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Main_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Splash_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Table_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Vipoln_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\Work_page.baml
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.g.resources
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.Properties.Resources.resources
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.csproj.GenerateResource.cache
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.csproj.CoreCompileInputs.cache
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.exe
+D:\Базанова ПКС-42. Демо\BazanDemo\obj\Debug\BazanDemo.pdb

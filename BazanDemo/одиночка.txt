@@ -1,0 +1,108 @@
+using System;
+using System.Collections.Generic;
+
+// Класс, представляющий жителя дома
+public class Resident
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public int Age { get; set; }
+    public int ApartmentNumber { get; set; }
+    public string MaritalStatus { get; set; }
+}
+
+// Класс, представляющий дом
+public class Home
+{
+    private static Home instance;
+    public List<Resident> Residents { get; set; }
+
+    private Home()
+    {
+        Residents = new List<Resident>();
+    }
+
+    public static Home GetInstance()
+    {
+        if (instance == null)
+        {
+            instance = new Home();
+        }
+        return instance;
+    }
+
+    public void AddResident(Resident resident)
+    {
+        Residents.Add(resident);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Home home = Home.GetInstance();
+        Console.WriteLine("1-добавление \n2-просмотр");
+        int input = Convert.ToInt32(Console.ReadLine());
+        switch (input)
+            {
+            case 1:
+                AddPerson(home);
+                break;
+            case 2:
+                WievPerson(home);
+                break;
+            default:
+                Console.WriteLine("Повторите ввод");
+                break;
+            }
+        }
+
+    private static void WievPerson(Home home)
+    {
+        Console.WriteLine("Информация о жителях дома по адресу Ангарская 45к6:");
+        foreach (var resident in home.Residents)
+        {
+            Console.WriteLine("Имя: " + resident.FirstName);
+            Console.WriteLine("Фамилия: " + resident.LastName);
+            Console.WriteLine("Возраст: " + resident.Age);
+            Console.WriteLine("Квартира: " + resident.ApartmentNumber);
+            Console.WriteLine("Семейное положение: " + resident.MaritalStatus);
+            Console.WriteLine();
+        }
+    }
+
+    private static void AddPerson(Home home)
+    {
+        Console.WriteLine("Добавить жильца дома Ангарская 45к6 : ");
+        Resident newResident = new Resident();
+
+        Console.Write("Введите имя жителя: ");
+        newResident.FirstName = Console.ReadLine();
+
+        Console.Write("Введите фамилию жителя: ");
+        newResident.LastName = Console.ReadLine();
+
+        Console.Write("Введите возраст жителя: ");
+        int age;
+        while (!int.TryParse(Console.ReadLine(), out age))
+        {
+            Console.WriteLine("Некорректный ввод. Попробуйте снова:");
+        }
+        newResident.Age = age;
+
+        Console.Write("Введите номер квартиры: ");
+        int apartment;
+        while (!int.TryParse(Console.ReadLine(), out apartment))
+        {
+            Console.WriteLine("Некорректный ввод. Попробуйте снова:");
+        }
+        newResident.ApartmentNumber = apartment;
+
+        Console.Write("Введите семейное положение жителя: ");
+        newResident.MaritalStatus = Console.ReadLine();
+
+        home.AddResident(newResident);
+    }
+}
+

@@ -1,0 +1,44 @@
+﻿<Page x:Class="BazanDemo.Create_form_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BazanDemo"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Create_form_page" Background="White">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Формирование заявки" VerticalAlignment="Top" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="177,60,0,0" TextWrapping="Wrap" Text="ФИО/наименование" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="233,92,0,0" TextWrapping="Wrap" Text="Телефон" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="249,124,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="204,156,0,0" TextWrapping="Wrap" Text="Оборудование" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="257,188,0,0" TextWrapping="Wrap" Text="С/н" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="153,225,0,0" TextWrapping="Wrap" Text="Описание неисправности" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="204,282,0,0" TextWrapping="Wrap" Text="Комментарий" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="35" Margin="400,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="27"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="35"  Margin="400,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="27"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="35"  Margin="400,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="27"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="35"  Margin="400,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="27"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="35"  Margin="400,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="39"/>
+        <TextBox HorizontalAlignment="Left"  FontSize="35"  Margin="400,282,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="39"/>
+        <Button Content="Создать" x:Name="Create_request_button"  Click="Create_request_button_Click"  FontSize="20" HorizontalAlignment="Left" Margin="445,363,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Content="Назад" x:Name="Back_button" Click="Back_button_Click" FontSize="20" HorizontalAlignment="Left" Margin="219,366,0,0" VerticalAlignment="Top" Width="140"/>
+        <ComboBox
+            x:Name="comboBoxEquipment"
+            DisplayMemberPath="Name"
+            FontSize="24"
+                    Margin="415,156,201,267" RenderTransformOrigin="0.5,0.5">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+        </ComboBox>
+
+    </Grid>
+</Page>
